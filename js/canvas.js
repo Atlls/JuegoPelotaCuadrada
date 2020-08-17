@@ -148,11 +148,7 @@ const LennyFace = new ObjetoCvs(lfi);
 /* Events Listener */
 
 // Inicializar juego
-document.addEventListener('DOMContentLoaded', () => {
-
-	interfazCvs.showInit('¡Haz click para jugar!');
-
-});
+document.addEventListener('DOMContentLoaded', () =>  interfazCvs.showInit('¡Haz click para jugar!') );
 
 // Iniciar juego
 document.addEventListener('click', launch);
